@@ -53,6 +53,10 @@ body {
 .text-container h1:hover {
     color: hsl(47, 88%, 63%);
     cursor: pointer;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+    transform: scale(1.03);
 }
 .text-container #para {
     font-size: 0.938rem;
