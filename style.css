@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
 }
 .card {
@@ -24,6 +25,7 @@ body {
     height: 32.625rem;
     width: 24rem;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, .75));
+    border: 1px solid black;
 }
 .image img {
    border-radius: 30px;
